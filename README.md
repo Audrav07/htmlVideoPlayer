@@ -42,14 +42,13 @@ When the HTML page is loaded in a browser, it displays a video player with contr
 }``
 
 ## Event Listeners for the buttons
-  ```video.addEventListener('click', togglePlay);
+``
+video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
 video.addEventListener('pause', updateButton);
 video.addEventListener('timeupdate', handleProgress)
 ``
-``
-``
-``
+
 ``toggle.addEventListener('click', togglePlay);
 skipButtons.forEach(button => button.addEventListener('click', skip));
 ranges.forEach(range => range.addEventListener('change', handleRangeUpdate));
@@ -61,3 +60,5 @@ ranges.forEach(range => range.addEventListener('mousemove', handleRangeUpdate));
 progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
 progress.addEventListener('mousedown', () => mousedown = true);
 progress.addEventListener('mouseup', () => mousedown = false);``
+
+
