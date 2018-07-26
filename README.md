@@ -1,6 +1,6 @@
 # Custom Video Player
 
-Demo (https://audrav07.github.io/htmlVideoPlayer/)
+[Demo](https://audrav07.github.io/htmlVideoPlayer/)
 ![photo](screen.png)
 
 ## Objective:
