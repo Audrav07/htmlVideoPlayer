@@ -41,7 +41,7 @@ When the HTML page is loaded in a browser, it displays a video player with contr
 	video.currentTime = scrubTime;
 }``
 
-- Event Listeners for the buttons
+## Event Listeners for the buttons
 	 ``video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
 video.addEventListener('pause', updateButton);
