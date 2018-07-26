@@ -1,5 +1,8 @@
 # Custom Video Player
 
+Demo (https://audrav07.github.io/htmlVideoPlayer/)
+![photo](screen.png)
+
 ## Objective:
 When the HTML page is loaded in a browser, it displays a video player with controls for playing/pausing the video, scrolling through the video progress, skipping/ rewinding, changing the volume, and adjusting the playback speed. None of these controls currently work. Write the necessary JavaScript code to bring functionality to this page.
 
